@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exemplo</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Escola Saberes</h1><br>
+        </header>
+        <aside>
+            <div id="div1">
+                Faça você mesmo!
+                <img src="imagens/imagem3.png" alt="imagem">
+            </div>
+            <div class="divtext">
+                <p>
+                Fazer antes e refletir depois. Essa é a essência da cultura maker, que tem como princípio a crença de que qualquer pessoa pode
+                consertar, modificar, criar e produzir objetos com as mãos. Entenda como o “fazer” se tornou uma tendência que impulsiona a inovação
+                em empresas, serviços, projetos sociais e escolas.
+                </p>
+            </div>
+            <div align="center" class="divvideo">
+                <iframe id="video" max-width="25%" max-heigth="25%" src="https://www.youtube.com/embed/7NrKvRjB6r8?start=3" 
+                frameborder="0" allow="accelerometer; autoplay; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <div id="div3">
+                <h2>
+                    Junte-se a nos
+                </h2>
+            </div>
+            <form action="">
+                <center>
+                    <p>Dados pessoais:</p>
+                    <fieldset>
+                        <label for="inome">Deixe seu nome: </label> <input id="inome" type="text" name="nome" size="20" placeholder="Nome"><br>
+                        <label for="iemail"> Deixe seu e-mail: </label><input id="iemail" type="email" name="email" size="20" placeholder="E-mail"><br>
+                        <label for="isenha"> Digite sua senha: </label> <input id="isenha" type="password" name="senha" size="20" placeholder="Senha"><br>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>
+                            <p>Sobre o site:</p>
+                        </legend>
+                       <p>Você gostou do site?</p><br>
+                        <input type="radio" name="gostou" value="sim" checked id="">Sim <br>
+                        <input type="radio" name="gostou" value="nao" id="">Não <br>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <p><legend>Sobre você:</legend></p>
+                        <p>Quais sites da sua preferência: </p><br>
+                        <input type="checkbox" name="visita" value="esportes" checked id="">Esportes
+                        <input type="checkbox" name="visita" value="culinaria" id="">culinaria
+                        <input type="checkbox" name="visita" value="noticias" id="">noticias
+                        <input type="checkbox" name="visita" value="Jogos" id="">Jogos
+                        <br>
+                        Outros: <input type="text" name="visita" size="8" maxlength="20" id="">
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Enviar" methodo="POST">
+                    <input type="reset" value="Limpar">
+                    <p>Deixe seu comentário:</p>
+                    <textarea name="comentarios" rows="10" cols="60"></textarea>
+                </center>
+                <br>
+            </form>
+        </aside>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body, html{
+  background-color: #000000;
+  height: 100%;
+}
+header{
+  width: 85%;
+  height: 15%;
+  background-color: #FF0000;
+  float: right;
+}
+nav{
+  height: 85%; 
+  width: 15%;
+  background-color: #6495ED;
+  float: left;
+}
+article{
+  width: 15%;
+  height: 70%;
+  background-color: #ffffff;
+  float: right;  
+}
+aside{
+  width:70%; 
+  height: 70%;
+  background-color: #00EE00;
+  float: right;
+}
+footer{
+  width: 100%;
+  height: 15%;
+  background-color: #8B008B;
+  position: fixed;
+  bottom: 0;
+}
